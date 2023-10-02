@@ -1,0 +1,98 @@
+.color-box {
+    background-color: lawngreen;
+    width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.4s;
+	--webkit-tranition: background 0.4s;
+	--moz-tranition: background 0.4s;
+  cursor: pointer;
+}
+
+.game {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.que-container {
+    width: 45%;
+    /* background-color: #808080; */
+    background:linear-gradient(to right, #fff, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722, #fff);
+    height: inherit;
+}
+
+/* .data-container {
+    margin-top: 40%;
+} */
+
+.que-box {
+    /* background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(16,16,16,1), rgb(211,211,211, 1)); */
+    background-image: linear-gradient(to right, rgb(240,240,240,1), rgb(245,245,245, 1));
+    padding: 25px 10px;
+    /* margin-top: 20%; */
+}
+
+.que-box p, .que-box span {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+.que-box h1 {
+    margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 6vw;
+  background: linear-gradient(to left, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-container {
+    width: calc(100% - 45%);
+}
+
+.data-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: inherit;
+    flex-direction: column;
+}
+
+.comments {
+    font-size: 3vw;
+    background-image: linear-gradient(to right, rgb(240,240,240,1), rgb(245,245,245, 1));
+}
+
+.retry {
+    color: #ff5722;
+}
+
+.success {
+    color: #43a047
+}
+
+.play {
+    color:#f9a825;
+}
+
+button {
+    color: steelblue;
+    font-weight: bold;
+    border: 1px solid gray;
+    font-size: 24px;
+    width: 100px;
+    height: 50px;
+}
+
+button.selected {
+    color: white;
+    background-color: steelblue;
+    border: 1px solid steelblue;
+}
