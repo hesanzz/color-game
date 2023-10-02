@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/color-selector-game/static/css/main.ba56c3b0.css",
+    "main.js": "/color-selector-game/static/js/main.9cf92050.js",
+    "static/js/787.03340ee9.chunk.js": "/color-selector-game/static/js/787.03340ee9.chunk.js",
+    "index.html": "/color-selector-game/index.html",
+    "main.ba56c3b0.css.map": "/color-selector-game/static/css/main.ba56c3b0.css.map",
+    "main.9cf92050.js.map": "/color-selector-game/static/js/main.9cf92050.js.map",
+    "787.03340ee9.chunk.js.map": "/color-selector-game/static/js/787.03340ee9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba56c3b0.css",
+    "static/js/main.9cf92050.js"
+  ]
+}
